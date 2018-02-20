@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Buisness Site</title>
+    <style media="screen">
+       body{
+         font-size: 62.5%;
+         font-family: helvetica, arial, verdana, sans-serif;
+         z-index: -1;
+       }
+       h1{
+         color: orange;
+       }
+       h3{
+         color: orange;
+       }
+      .container{
+        max-width: 100%;
+        min-width: 25%;
+      }
+      .left{
+        float: left;
+      }
+      .right{
+        float: right;
+      }
+      .big-img{
+        width: 30%;
+        height: 80%;
+      }
+      .big-img:nth-of-type(1){
+        width: 45%;
+        height: 40%;
+        align-content: center;
+      }
+      .sm-img{
+        display: none;
+        /*width: 35%;*/
+        /*height: 30%;*/
+
+      }
+      .big-img:hover, .sm-img:hover{
+        opacity: 0.5;
+        filter: alpha(opacity=50); /* For IE8 and earlier */
+      }
+      li{
+        list-style-type: none;
+      }
+      .center-nav{
+        max-width: 100%;
+      }
+      .top{
+        background-color: lightgray;
+        color: black;
+        margin-top: -0.5%;
+        margin-left: -0.6%;
+        padding-right: 2%;
+        width: 100%;
+        height: 35%;
+        text-align: center;
+        padding-top: 1%;
+      }
+      .top-btm{
+        background-color: #ffd27f;
+        margin-top: -0.5%;
+        margin-left: -0.6%;
+        padding-right: 2%;
+        width: 100%;
+        height: 35%;
+        text-align: center;
+        padding-top: 1%;
+      }
+      .mid-left{
+        float: left;
+        max-width: 55%;
+      }
+      .mid-left p{
+        font-size: 18px;
+        color: grey;
+      }
+      .mid-right{
+        width: 45%;
+        float: right;
+      }
+      .mid-two-left{
+        float: left;
+        width: 45%;
+        padding-bottom: 2%;
+      }
+      .mid-two-right{
+        float: right;
+        max-width: 55%;
+      }
+      .mid-two-right p{
+        font-size: 18px;
+        color: grey;
+      }
+      .mid-three-left{
+        float: left;
+        width: 45%;
+      }
+      .mid-three-left p{
+        font-size: 18px;
+        color: grey;
+      }
+      .mid-three-right{
+        float: right;
+        width: 55%;
+      }
+      .mid-three-center-left p{
+        font-size: 22px;
+      }
+      .contact table{
+        border-radius: 10%;
+      }
+      .footer{
+        background-color: lightgrey;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="left">
+          <table>
+            <tr>
+              <td style="color: orange; font-size: 15px;"><h1>Mibo</h1></td>
+              <td><h2 style="color: lightgrey;">Dev</h2></td>
+            </tr>
+          </table>
+        </div>
+        <div class="right">
+          <table>
+            <tr>
+              <td style="font-size: 17px; padding-right: 10px; cursor: pointer;"><h3>SERVICES</h3></td>
+              <td style="font-size: 17px; padding-right: 10px; cursor: pointer;"><h3>RESOURCES</h3></td>
+              <td style="font-size: 17px; padding-right: 10px; cursor: pointer;"><h3>ABOUT</h3></td>
+            </tr>
+          </table>
+        </div>
+      </div><hr width="100%" style="padding-right: 2%; margin-left: -1%;"><br>
+
+      <div class="center-nav">
+            <table>
+              <tr>
+                <td>
+                  <div class="left-nav" width="55%" >
+                    <center>
+                    <img class="big-img" src="nyc.jpg">
+                  </center>
+                    <img style="display:none;" class="big-img" src="austrailia.jpg">
+                  </div>
+                  <td><ul style="margin-right: 45%;">
+                    <li><img class="sm-img" src="iphone-6s-021.png"></li><br>
+                    <li><img class="sm-img" src="apartment1.jpg"></li>
+                  </ul></td>
+                </td>
+                  <!-- <td>
+                  <div align="center" class="right-nav" width="inherit">
+                    <ul style="margin-right: 45%;">
+                      <li><img class="sm-img" src="iphone-6s-021.png"></li><br>
+                      <li><img class="sm-img" src="apartment1.jpg"></li>
+                    </ul>
+                  </div>
+                </td> -->
+              </tr>
+            </table>
+      </div><br><hr width="100%" style="padding-right: 2%; margin-left: -1%;">
+
+      <div class="content">
+        <div class="top">
+          <h1 style="color: grey;">Join the Community : )</h1><br>
+        </div>
+        <div class="top-btm">
+          <h1 style="color: #fff;">Some Awesome characters!!! <a href="" style="text-decoration: none; color: #fff;">Services</a></h1>
+          <!-- SMALL DIV FOR LITTLE TRIANGLE UNDER SERVICES -->
+        </div>
+        <div class="mid-left">
+          <h1 style="color: grey;">Travel Prep</h1><br>
+          <p>Getting ready for a trip to Japan? Equip yourself with tools to make a lasting impression. From scholarship matching to bilingual business cards, our travel prep services will help you hit the ground running.</p><br>
+          <h2 style="color: grey;"><b>FOR: travelers, students and budding business pros</b></h2><br>
+          <h2><a href="" style="text-decoration: none; color: orange;">LEARN MORE > ></a></h2>
+        </div>
+        <div class="mid-right" align="center"><br>
+          <img src="maserati.jpg" style="width: 360px; padding-top: 2%;">
+        </div><br><hr width="100%" style="padding-right: 2%; margin-left: -1%;">
+        <div class="mid-two-left" align="center"><br>
+          <img src="banner-heritage.jpg" style="width: 360px;">
+        </div>
+        <div class="mid-two-right">
+          <h1 style="color: grey;">Language Prep</h1><br>
+          <p>Learn to speak, travel and live in Japan like a native. With custom designed Japanese lessons you'll be ready for your local experience.
+          </p><br>
+          <h2 style="color: grey;"><b>FOR: individuals and groups</b></h2><br>
+          <h2><a href="" style="text-decoration: none; color: orange;">LEARN MORE > ></a></h2>
+        </div><br><hr width="100%" style="padding-right: 2%; margin-left: -1%;">
+        <div class="mid-three-left">
+          <h1 style="color: grey;">Business Prep</h1><br>
+          <p>KemushiChan offers an array of bilingual services for your business without borders. From translation and interpretation to marketing consultations, we've got you covered.</p>
+          <h2 style="color: grey;"><b>FOR: businesses
+          </b></h2><br>
+          <h2><a href="" style="text-decoration: none; color: orange;">SEE PORTFOLIO >></a></h2>
+        </div>
+        <div class="mid-three-right" align="center">
+          <img src="apartment1.jpg" style="width: 360px; padding-top: 2%;">
+        </div>
+      </div>
+
+      <div class="contact">
+            <table align="center" width="75%;" style="background-color: #ffd27f; margin-top: 5%;">
+              <tr>
+                <td>
+                  <!-- <div class="mid-three-center-left"> -->
+                    <p style="color: #fff; font-size: 22px; padding-left: 5%;">Questions? Reach us by clicking <a href="mailto:m.bobbitt94@yahoo.com" style="text-decoration: none; color: #fff;">HERE</a>!</p>
+                  <!-- </div> -->
+                </td>
+                <td>
+                  <!-- <div class="mid-three-center-right"> -->
+                    <img src="iphone-6s-021.png" style="width: 80px; padding-top: 2%;">
+                  <!-- </div> -->
+                </td>
+              </tr>
+            </table><br><br><br><br>
+      </div>
+
+      <div class="footer" style="margin-top: -0.5%;
+      margin-left: -0.8%;
+      padding-right: 4%;
+      padding-bottom: 4%;
+      width: 100%;"><br><br>
+        <center>
+        <table style="color: grey; font-size: 15px;">
+          <tr>
+            <td>©2018 Mibo Dev, LLC. All Rights Reserved.</td>
+          </tr>
+          <tr>
+            <td>Contact: m.bobbitt94@yahoo.com      |      Mibo Dev LLC, California, CA 95624</td>
+          </tr>
+        </table><br><br>
+      </center>
+      </div>
+    </div>
+  </body>
+</html>
